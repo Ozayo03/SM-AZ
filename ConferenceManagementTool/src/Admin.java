@@ -86,6 +86,11 @@ public class Admin extends Organiser{
 
         return "conference not created";
     }
+    public static void adminnn() {
+    	
+    	System.out.println("");
+    	
+    }
     public static void DeleteConference(int confId) throws SQLException {
         System.out.println("DeleteConference() is successful");
         Connection connection = null;
