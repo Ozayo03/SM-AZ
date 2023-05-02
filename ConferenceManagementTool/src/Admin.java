@@ -89,6 +89,7 @@ public class Admin extends Organiser{
     public static void adminnn() {
     	
     	System.out.println("");
+    	//hello
     	
     }
     public static void DeleteConference(int confId) throws SQLException {
