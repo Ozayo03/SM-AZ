@@ -18,10 +18,12 @@ public class User {
     public List<String> USER_ROLES = new ArrayList<>();
     public List<Conference> USER_CONF = new ArrayList<>();
     public void GetUser(int userId) throws SQLException {
+    
 
         Connection connection = null;
         PreparedStatement preparedStatement = null;
         ResultSet resultSet = null;
+        
 
         try {
             connection = Role.MakeSqlConnection();
@@ -116,6 +118,12 @@ public class User {
 
         return ">>" + userObj.toString();
     }
+    
+    public static void userss() {
+    	
+    	System.out.print("");
+    }
+    
 
     public static boolean CreateUser(String user_name, String user_email, String user_expertise, String user_domain, String user_pword) throws SQLException
     {
